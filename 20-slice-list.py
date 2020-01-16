@@ -16,6 +16,16 @@ myList = [10, 8, 6, 4, 2]
 newList = myList[1:3]
 print(newList)
 
+# You can omit the 'start'
+myList = [10, 8, 6, 4, 2]
+newList = myList[:3]
+print(newList)
+
+# or the 'end'
+myList = [10, 8, 6, 4, 2]
+newList = myList[3:]
+print(newList)
+
 # Delete part of the list
 myList = [10, 8, 6, 4, 2]
 del myList[1:3]
