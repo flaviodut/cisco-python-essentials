@@ -15,3 +15,24 @@ print(list1, list2)
 myList = [10, 8, 6, 4, 2]
 newList = myList[1:3]
 print(newList)
+
+# Delete part of the list
+myList = [10, 8, 6, 4, 2]
+del myList[1:3]
+print(myList)
+
+# Delete the content of the list stored on memory, not the variable
+myList = [10, 8, 6, 4, 2]
+del myList[:]
+print(myList)
+
+# Delete the variable
+myList = [10, 8, 6, 4, 2]
+del myList
+print(myList)  # this will return a exception error
+
+# Check if value is stored in the list
+myList = [0, 3, 12, 8, 2]
+print(5 in myList)
+print(5 not in myList)
+print(12 in myList)
