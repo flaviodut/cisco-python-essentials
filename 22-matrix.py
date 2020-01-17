@@ -14,3 +14,9 @@ print(board)
 
 board = [[EMPTY for i in range(8)] for j in range(8)]
 print(board)
+
+
+
+# three buildings, 15 floors, 20 rooms
+
+rooms = [[[False for r in range(20)] for f in range(15)] for t in range(3)]
